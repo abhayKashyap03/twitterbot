@@ -1,0 +1,18 @@
+[project]
+name = "twitterbot"
+version = "0.1.0"
+readme = "README.md"
+dependencies = [
+    "google-genai",
+    "mypy",
+    "pre-commit",
+    "python-dotenv",
+    "requests",
+    "tweepy",
+    "pytest",
+]
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["pdm.backend"]
+build-backend = "pdm.backend"

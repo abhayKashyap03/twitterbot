@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+*__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE/env/build configuration
+.vscode/
+.idea/
+.conda/
+env/
+.env
+.venv
+.pdm-build
+
+# Other
+*.egg-info/
+*.DS_Store
+
+.gemini/
+gha-creds-*.json
